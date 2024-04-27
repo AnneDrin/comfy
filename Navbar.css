@@ -1,0 +1,89 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 3px;
+    box-shadow: 0 1px 3px -2px black;
+}
+
+.nvlogo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nvlogo p {
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+}
+
+.cart{
+    width: 30px;
+    height: 30px;
+}
+
+.nvmenu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    color: rgb(41, 40, 40);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nvmenu li {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 3px;
+cursor: pointer;
+}
+
+.nvmenu hr{
+    border: none;
+    width: 80%;
+    height:3px;
+    border-radius: 10px;
+    background-color: rgb(223, 126, 22);
+}
+ 
+.login-btn{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.login-btn button{
+    width: 150px;
+    height: 55px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 75px;
+    color: rgb(24, 16, 16);
+    font-size: 15px;
+    font-weight: 300;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.nvcart-count{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: -55px;
+    border-radius: 11px;
+    font-size: 14px;
+    background: red;
+    color: white;
+}
